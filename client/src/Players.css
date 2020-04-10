@@ -9,11 +9,17 @@
 
 }
 
-.player-card{
+.playerCard{
     width: 15%;
+    border-radius: 25px;
     margin: 0 auto;
     padding: 1%;
     margin-top: 1%;
     background-color: aquamarine;
     color: #282c34;
 }
+
+.dark-mode{
+    color: aquamarine;
+    background-color: #282c34;
+  }

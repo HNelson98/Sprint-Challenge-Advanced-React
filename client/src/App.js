@@ -3,6 +3,7 @@ import './App.css';
 import './Players.css'
 import axios from 'axios'
 import PlayersList from './Components/Players';
+import ChangeMode from './Components/darkmodetoggle';
 
 class App extends React.Component {
   constructor() {
@@ -26,6 +27,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Players In The Women's World Cup</h1>
+        <ChangeMode/>
         <PlayersList player= {this.state.Players}/>
       </div>
     );

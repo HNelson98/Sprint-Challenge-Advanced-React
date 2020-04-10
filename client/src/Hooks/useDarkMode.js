@@ -3,6 +3,12 @@ import { useLocalStorage } from './useLocalStorage'
 
 const useDarkMode = (key, initialValue) => {
     const [darkMode, setDarkMode] = useLocalStorage(key, initialValue);
+    //const players = document.getElementsByClassName("playerCard")
+
+    //dosen't work
+    // players.forEach(element => {
+    //     darkMode ? element.classList.add("dark-mode") : element.classList.remove("dark-mode")
+    // });
 
     useEffect(() => {
         darkMode
