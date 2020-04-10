@@ -31,16 +31,16 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to download dependencies.
-- [ ] Run the server using `npm start` or `node server.js`.
-- [ ] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
-- [ ] Still inside the `client` folder run `npm start` to run the client application.
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [Y] Create a forked copy of this project.
+- [Y] Add TL as collaborator on Github.
+- [Y] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [Y] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [Y] Run `npm install` to download dependencies.
+- [Y] Run the server using `npm start` or `node server.js`.
+- [Y] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
+- [Y] Still inside the `client` folder run `npm start` to run the client application.
+- [Y] Implement the project on this Branch, **committing progress & changes often.**
+- [Y] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
