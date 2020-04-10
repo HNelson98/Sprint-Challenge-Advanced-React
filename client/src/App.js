@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import axios from 'axios'
+import PlayersList from './Components/Players';
 
 class App extends React.Component {
   constructor() {
@@ -16,17 +17,14 @@ class App extends React.Component {
       this.setState({
         Players: res.data,
       })
-      console.log(this.state)
+      // console.log(this.state)
     })
   }
 
   render(){
     return (
       <div className="App">
-        <header className="App-header">
-
-
-        </header>
+        <PlayersList player= {this.state.Players}/>
       </div>
     );
   }
