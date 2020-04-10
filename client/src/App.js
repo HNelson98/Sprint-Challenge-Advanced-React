@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Players.css'
 import axios from 'axios'
 import PlayersList from './Components/Players';
 
@@ -24,6 +25,7 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
+        <h1>Players In The Women's World Cup</h1>
         <PlayersList player= {this.state.Players}/>
       </div>
     );
